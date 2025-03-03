@@ -6,7 +6,8 @@ import org.aeonbits.owner.Config;
 import static com.codeborne.selenide.Browsers.CHROME;
 
 @Config.Sources({
-        "classpath:${env}.properties"
+        "classpath:local-config.properties",
+        "classpath:remote-config.properties"
 })
 public interface DataConfig extends Config {
     @Key("baseUrl")

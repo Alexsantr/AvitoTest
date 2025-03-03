@@ -10,7 +10,6 @@ public class WebDriverConfig {
     }
 
     public void dataConfig() {
-        Configuration.holdBrowserOpen=true;
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = dataConfig.getBaseUrl();
         Configuration.browser = dataConfig.getBrowser();

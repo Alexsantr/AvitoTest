@@ -10,7 +10,7 @@ public class AvitoTests extends tests.BaseTest {
 
     @Test
     @Tag("demode")
-    public void AvitoTest() {
+    public void avitoTest() {
         searchPages.openPage()
                 .searchGoods();
 
